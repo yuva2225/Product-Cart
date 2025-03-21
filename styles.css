@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 'poppins',sans-serif;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    
+}
+.box{
+    height:440px;
+    width:400px;
+    border:2px solid black;
+    margin-top: 10%;
+    text-align: center;
+    background: lightblue;
+}
+.products{
+    margin-top: 30px;
+    
+}
+.items{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom:10px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.items button{
+    padding: 2px 5px;
+    border-radius: 20px;
+    border:2px solid black;
+    font-size: 15px;
+}
